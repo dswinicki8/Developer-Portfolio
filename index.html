@@ -9,16 +9,18 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 <link rel="stylesheet" href="style.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
-<script src="https://www.vantajs.com/dist/vanta.fog.min.js"></script>
+<script src="https://www.vantajs.com/dist/vanta.rings.min.js"></script>
+<script src="three.r95.min.js"></script>
+<script src="vanta.rings.min.js"></script>
 <title>Drew Swinicki Portfolio</title>
 </head>
 <body>
   
   <div class="jumbotron mb-0" id="vantajs">
-    <h1 class="display-4 text-center">Hello, I'm Drew Swinicki.</h1>
-    <h1 class="display-4 text-center">I am a Full Stack Developer.</h1>
+    <h1 class="display-4 title">Hello, I'm Drew Swinicki.</h1>
+    <h1 class="display-4 title">I am a Full Stack Developer.</h1>
     
-    <a class="btn btn-primary btn-lg mt-3 " href="#" role="button">View my Projects</a>
+    <a href="something" class="button1">View My Projects</a>
   </div>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-2 pb-2 mb-5 mt-0">
@@ -47,6 +49,18 @@
   </nav>
 
 
+<div class="container mt-3 mb-3">
+  <div class="row">
+    <div class="col-6">
+      <div class="card" height="100">
+        <img src="Drew.jpg" class="card-img-top" alt="profile picture">
+      </div>
+    </div>
+    <div class="col-6">
+      <p>I am a freelance web developer in New Jersey. I graduated from Rutgers Coding Bootcamp in 2020.</p>
+    </div>
+  </div>
+</div>
 
 
 
@@ -54,7 +68,7 @@
 <div class="container mb-5">
   <div class="row">
     <div class="card col-3 ml-5 mr-5">
-      <img src="Rennovation Hunter Screenshot.png" class="card-img-top mt-3" alt="Renovation Hunter Logo">
+      <img src="Rennovation Hunter Screenshot.png" class="card-img-top mt-3" alt="Renovation Hunter screenshot">
       <div class="card-body">
         <h5 class="card-title">Renovation Hunter</h5>
         <p class="card-text">Web application for connecting homeowners with projects they need done, with the professionals in their area.</p>
@@ -62,11 +76,12 @@
       </div>
     </div>
     <div class="card col-3 ml-5 mr-5">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="CC screenshot.png" class="card-img-top mt-3" alt="Calorie Tracker screenshot">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">Calorie Tracker</h5>
+        <p class="card-text">This was our first project in class with a group. We decided to design and build a calorie counting application. This app will ease the daily hassle of logging meals, thus helping to live a healthier life.</p>
+        <a href="https://dswinicki8.github.io/Calories-tracker/" class="btn btn-primary">Calorie Tracker</a>
+        
       </div>
     </div>
     <div class="card col-3 ml-5 mr-3">
@@ -190,17 +205,15 @@
 
 
 
-  <script>
-  VANTA.FOG({
+<script>
+  VANTA.RINGS({
     el: "#vantajs",
     mouseControls: true,
     touchControls: true,
     minHeight: 200.00,
     minWidth: 200.00,
-    highlightColor: 0xff3c,
-    midtoneColor: 0x1e00ff,
-    lowlightColor: 0x757478,
-    baseColor: 0x5d5861
+    scale: 1.00,
+    scaleMobile: 1.00
   })
   </script>
   <script src="index.js"></script>
@@ -209,3 +222,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
