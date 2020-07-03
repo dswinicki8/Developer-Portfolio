@@ -25,3 +25,8 @@ a.button1{
 color:#000000;
   background-color:#FFFFFF;
   }
+
+  #profile {
+    width: 50%;
+    height: auto;
+  }
