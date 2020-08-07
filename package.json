@@ -1,0 +1,22 @@
+{
+  "name": "developer-portfolio",
+  "version": "1.0.0",
+  "description": "Now that you've built a full-stack web application and have another project to share, you'll be updating your portfolio page and other materials to build toward being employer competitive.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dswinicki8/Developer-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dswinicki8/Developer-Portfolio/issues"
+  },
+  "homepage": "https://github.com/dswinicki8/Developer-Portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
